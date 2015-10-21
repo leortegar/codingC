@@ -1,0 +1,72 @@
+ 1008  mv codingC/ codingC_m/
+ 1009  ls
+ 1010  git clone https://github.com/leortegar/codingC.git
+ 1011  ls
+ 1012  cd codingC
+ 1013  ls
+ 1014  ls ../codingC_m/
+ 1015  cp * ../codingC_m/ .
+ 1016  ls
+ 1017  cp ../codingC_m/* .
+ 1018  ls
+ 1019  rm codigo.o 
+ 1020  ls
+ 1021  mkdir idioma po
+ 1022  ls
+ 1023  cd idioma/
+ 1024  mkdir en es
+ 1025  ls
+ 1026  cd en
+ 1027  ls
+ 1028  mkdir LC_MESSAGES
+ 1029  cd ..
+ 1030  ls
+ 1031  cd es/
+ 1032  mkdir LC_MESSAGES
+ 1033  LS
+ 1034  ls
+ 1035  cd ..
+ 1036  ls
+ 1037  tree .
+ 1038  cat codigo0.c 
+ 1039  #xgettext --package-name codig --package-version 0.1 --default-domain codigo --output po/codigo.pot --from-code=utf-8 --copyright-holder="leortegar" --msgid-bugs-address="ortegarle@gmail.com" -s -k_ -L C codigo.c
+ 1040* 
+ 1041  vim codigo.c 
+ 1042  xgettext --package-name codig --package-version 0.1 --default-domain codigo --output po/codigo.pot --from-code=utf-8 --copyright-holder="leortegar" --msgid-bugs-address="ortegarle@gmail.com" -s -k_ -L C codigo.c
+ 1043  ls
+ 1044  ls po/
+ 1045  cat codigo
+ 1046  cat po/codigo.pot 
+ 1047  ls
+ 1048  rm codigo0.c 
+ 1049  ls
+ 1050  touch comandos.txt
+ 1051  s
+ 1052  ls
+ 1053  history | tail -20 >> comandos.txt 
+ 1054  cat comandos.txt 
+ 1055  rm comandos.txt 
+ 1056  touch comandos.txt
+ 1057  history | tail -50 >> comandos.txt 
+msginit <<-- utilidad para inicializar
+dnf install gettext
+dnf install @development-tools
+dnf install google-chrome-stable
+msginit -l es -o po/es.po -i po/codigo.pot n
+msginit -l en -o po/en.po -i po/codigo.pot
+.
+├── codigo.c
+├── comandos.txt
+├── idioma
+│   ├── en
+│   │   └── LC_MESSAGES
+│   └── es
+│       └── LC_MESSAGES
+├── LICENSE
+├── po
+│   ├── codigo.pot
+│   ├── en.po
+│   └── es.po
+└── README.md
+
+6 directories, 7 files
