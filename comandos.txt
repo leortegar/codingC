@@ -141,3 +141,8 @@ msgfmt -c -v -o idioma/en/LC_MESSAGES/codigo.mo po/en.po
 ./codigo
 LANG=es_ES ./codigo
 LANG=en_EN ./codigo
+
+
+
+https://docs.google.com/document/d/1T6TEb3EgfSh8d2qIkS-1_EMCCfMIJ0WjZKWs02YzZWY/edit?pli=1
+
