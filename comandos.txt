@@ -145,4 +145,14 @@ LANG=en_EN ./codigo
 
 
 https://docs.google.com/document/d/1T6TEb3EgfSh8d2qIkS-1_EMCCfMIJ0WjZKWs02YzZWY/edit?pli=1
+https://www.le.ac.uk/users/rjm1/cotter/page_43.htm
+https://angular-gettext.rocketeer.be/
+http://iie.fing.edu.uy/~vagonbar/gcc-make/gcc.htm
+https://code.djangoproject.com/
+http://ehiti.de/machine_objects/
+https://www.raspberrypi.org/
+http://linuxcommand.org/lts0080.php
+http://linuxcommand.org/lc3_learning_the_shell.php
+https://es.wikipedia.org/wiki/Anillo_%28seguridad_inform%C3%A1tica%29
+anillos de sistemas operativos
 
